@@ -210,7 +210,7 @@ export default class RideScreen extends Component {
             <TextInput
               style={[styles.textinput, { width: "82%" }]}
               onChangeText={text => this.setState({ userId: text })}
-              placeholder={"User Id"}
+              placeholder={"ID del usuario"}
               placeholderTextColor={"#FFFFFF"}
               value={userId}
             />
@@ -219,7 +219,7 @@ export default class RideScreen extends Component {
             <TextInput
               style={styles.textinput}
               onChangeText={text => this.setState({ bikeId: text })}
-              placeholder={"Bicycle Id"}
+              placeholder={"ID de la bicicleta"}
               placeholderTextColor={"#FFFFFF"}
               value={bikeId}
             />
